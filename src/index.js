@@ -8,7 +8,7 @@ try {
 loader.classList.remove('hidden');
 fetchBreeds().then(data => renderSelect(data));
 } catch (error) {
-console.log(error)
+console.log(error);
 }
 
 function renderSelect(breeds) {
