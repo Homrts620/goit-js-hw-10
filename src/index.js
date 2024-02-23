@@ -37,6 +37,6 @@ catInfo.insertAdjacentHTML(
         <p>${description}</p>
         <p><strong>Temperament:</strong> ${temperament}</p>
     </div>`
-)
+);
 loader.classList.add('hidden');
 }
